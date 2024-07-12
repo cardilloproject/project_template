@@ -29,13 +29,17 @@ We use Visual Studio Code (VS Code) as development environment. The following in
 
 Download and install Python from https://www.python.org/downloads/. Alternatively you can use a package manager to install Python (recommended on Mac/Linux). On Windows, make sure that Python is on your system's path.
 
-Check that Python is properly installed by typing `python` in a terminal, which should start the Python application. Note, depending on the installation, e.g.\ on Mac, the Python command is `python3`. 
+Check that Python is properly installed by typing `python` in a terminal, which should start the Python application. Note, depending on the installation, e.g. on Mac, the Python command is `python3`. 
 
 ### VS Code
 
 Download and install VS Code from https://code.visualstudio.com. Then, start VS Code and install the Python extension called "Python" (provided by Microsoft). For help, consult https://code.visualstudio.com/docs/languages/python.
 
-### Virtual envirionment and project template
+### Git
+
+Download and install Git from https://git-scm.com/.
+
+### Virtual environment and project template
 
 Clone (or download) the template
 ```bash
@@ -44,7 +48,7 @@ git clone https://github.com/cardilloproject/project_template.git
 
 Open the downloaded folder in VS Code. Either manually within VS Code (File $\to$ Open Folder ...) or type `code project_template` in your terminal.
 
-Start a new terminal in VS Code (Terminal $\to$ New Terminal). The path should point to the downloaded folder now. Otherwise, navigate to the downloaded folder using the `cd` command.
+Start a new terminal in VS Code (Terminal $\to$ New Terminal). In Windows the standard terminal is a powershell. For the following it is more convenient to chose the Git Bash. After opening a terminal, click on the downward pointing wedge right next to the plus sign and choose Git Bash. The path should point to the downloaded folder now. Otherwise, navigate to the downloaded folder using the `cd` command.
 
 It is favorable to work within a [virtual environment](https://docs.python.org/3/library/venv.html) for every project, such that installed packages do not interfere between different projects. To create a virtual environment named *myvenv*, execute
 ```bash
@@ -52,7 +56,7 @@ python -m venv myvenv
 ```
 You might have to replace the `python` command by `python3`.
 
-To activate the created virtual environment run the activation script `myvenv/bin/activate` (on Windows: `myvenv/Scripts/activate`) from your terminal. You should notice a change in your terminal and the name *myvenv* should typically appear somewhere. Now, the terminal commands `python` and `pip` point to the executables in your virtual environment and we are ready to install the project template in the virtual environment by
+To activate the created virtual environment run the activation script `myvenv/bin/activate` (on Windows: `. myvenv/Scripts/activate`) from your terminal. You should notice a change in your terminal and the name *myvenv* should typically appear somewhere. Now, the terminal commands `python` and `pip` point to the executables in your virtual environment and we are ready to install the project template in the virtual environment by
 ```bash
 pip install -e .
 ```
