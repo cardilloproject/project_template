@@ -2,7 +2,7 @@
 
 This is a basic file structure for a project that uses cardillo. The folder `cardillo_add_ons` will contain your cardillo building blocks, e.g., own implementations of solvers, bodies or constraints. The `example` folder contains your simulation project that invokes cardillo together with your own add-ons. In order to use your add-ons, this template provides a `setup.py` that allows you to install the add-ons. It is recommended to install the add-ons in *editable* mode, such that the add-ons can be modified while working on the simulation project.
 
-If you are experienced with Python and have an own workflow, go to [Installation](#installation). If you are a newbie or if you are interested in the workflow we are using, go to [Our Workflow](#our-workflow).
+If you are experienced with Python and have an own workflow, go to [Installation](#installation). If you are a newbie or if you are interested in the workflow we are using, go to [Our workflow](#our-workflow).
 
 ## Installation
 To install the project in editable mode (option `-e`), clone or download the current repository, open a console, navigate to the root folder of the project and run `pip install -e .`.
