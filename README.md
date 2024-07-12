@@ -48,7 +48,7 @@ git clone https://github.com/cardilloproject/project_template.git
 
 Open the downloaded folder in VS Code. Either manually within VS Code (File $\to$ Open Folder ...) or type `code project_template` in your terminal.
 
-Start a new terminal in VS Code (Terminal $\to$ New Terminal). In Windows the standard terminal is a powershell. For the following it is more convenient to chose the Git Bash. After opening a terminal, click on the downward pointing wedge right next to the plus sign and choose Git Bash. The path should point to the downloaded folder now. Otherwise, navigate to the downloaded folder using the `cd` command.
+Start a new terminal in VS Code (Terminal $\to$ New Terminal. In Windows, the standard terminal is a powershell. For the following, it is more convenient to chose the Git Bash. After opening a terminal, click on the downward pointing wedge right next to the plus sign and choose Git Bash.) The path should point to the downloaded folder now. Otherwise, navigate to the downloaded folder using the `cd` command.
 
 It is favorable to work within a [virtual environment](https://docs.python.org/3/library/venv.html) for every project, such that installed packages do not interfere between different projects. To create a virtual environment named *myvenv*, execute
 ```bash
