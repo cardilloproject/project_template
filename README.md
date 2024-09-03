@@ -56,7 +56,7 @@ python -m venv myvenv
 ```
 You might have to replace the `python` command by `python3`.
 
-To activate the created virtual environment run the activation script `myvenv/bin/activate` (on Windows: `. myvenv/Scripts/activate`) from your terminal. You should notice a change in your terminal and the name *myvenv* should typically appear somewhere. Now, the terminal commands `python` and `pip` point to the executables in your virtual environment and we are ready to install the project template in the virtual environment by
+To activate the created virtual environment run the activation script `./myvenv/bin/activate.bat` (on Windows: `./myvenv/Scripts/activate.bat`) from your terminal. You should notice a change in your terminal and the name *myvenv* should typically appear somewhere. Now, the terminal commands `python` and `pip` point to the executables in your virtual environment and we are ready to install the project template in the virtual environment by
 ```bash
 pip install -e .
 ```
